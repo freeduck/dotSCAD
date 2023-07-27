@@ -1,8 +1,8 @@
-use <shape_circle.scad>
-use <shear.scad>
-use <polyhedron_hull.scad>
-use <ptf/ptf_rotate.scad>
-use <experimental/convex_hull3.scad>
+use <dotSCAD/shape_circle.scad>
+use <dotSCAD/shear.scad>
+use <dotSCAD/polyhedron_hull.scad>
+use <dotSCAD/ptf/ptf_rotate.scad>
+use <dotSCAD/experimental/convex_hull3.scad>
 
 function one_body_scale(body_r, body_fn, scale_fn, scale_tilt_a) =  
     let(

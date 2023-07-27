@@ -1,13 +1,13 @@
-use <ellipse_extrude.scad>
-use <curve.scad>
-use <sweep.scad>
-use <matrix/m_transpose.scad>
-use <shape_trapezium.scad>
-use <ptf/ptf_rotate.scad>
-use <bezier_curve.scad>
-use <path_extrude.scad>
-use <shape_circle.scad>
-use <polyhedra/octahedron.scad>
+use <dotSCAD/ellipse_extrude.scad>
+use <dotSCAD/curve.scad>
+use <dotSCAD/sweep.scad>
+use <dotSCAD/matrix/m_transpose.scad>
+use <dotSCAD/shape_trapezium.scad>
+use <dotSCAD/ptf/ptf_rotate.scad>
+use <dotSCAD/bezier_curve.scad>
+use <dotSCAD/path_extrude.scad>
+use <dotSCAD/shape_circle.scad>
+use <dotSCAD/polyhedra/octahedron.scad>
 
 dragon_head();
 

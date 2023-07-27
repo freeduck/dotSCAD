@@ -1,13 +1,13 @@
-use <along_with.scad>
-use <bezier_smooth.scad>
-use <util/reverse.scad>
-use <util/dedup.scad>
-use <turtle/lsystem3.scad>
-use <curve.scad>
+use <dotSCAD/along_with.scad>
+use <dotSCAD/bezier_smooth.scad>
+use <dotSCAD/util/reverse.scad>
+use <dotSCAD/util/dedup.scad>
+use <dotSCAD/turtle/lsystem3.scad>
+use <dotSCAD/curve.scad>
 use <dragon_head.scad>
 use <dragon_scales.scad>
-use <path_extrude.scad>
-use <bezier_curve.scad>
+use <dotSCAD/path_extrude.scad>
+use <dotSCAD/bezier_curve.scad>
 
 hilbert_dragon();
 
